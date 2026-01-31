@@ -1,0 +1,22 @@
+# =============================================================================
+# ESP32-C3 — Configuración para Paso 1 (Scaffold / Blink)
+# =============================================================================
+# sdkconfig.defaults es leído por el build system de ESP-IDF.
+# Cada línea CONFIG_* setea una opción del SDK de C subyacente.
+# Es como un .env pero para el firmware.
+
+# ─── Stack del main task ───
+# FreeRTOS corre tu main() como un "task" con stack fijo.
+# Rust usa más stack que C (por ownership tracking, unwinding, etc.)
+# 8KB es un buen punto de partida. Si ves stack overflow, subilo.
+CONFIG_ESP_MAIN_TASK_STACK_SIZE=8000
+
+# ─── FreeRTOS tick rate ───
+# 1000 Hz = resolución de 1ms para delays y timers.
+# Default es 100 Hz (10ms). Para IoT con timing preciso, 1000 es mejor.
+CONFIG_FREERTOS_HZ=1000
+
+# ─── Logging ───
+# INFO muestra logs normales. DEBUG disponible si lo necesitás.
+CONFIG_LOG_DEFAULT_LEVEL_INFO=y
+CONFIG_LOG_MAXIMUM_LEVEL_DEBUG=y
