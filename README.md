@@ -79,13 +79,13 @@ Te invito a unirte a nuestro servidor de Discord para que no te pierdas el desar
 
 - **[Paso 1 — Scaffold del proyecto](https://github.com/FMFigueroa/paso-01-scaffold)** ← _este repo_
 - [Paso 2 — WiFi Station](https://github.com/FMFigueroa/paso-02-wifi-station)
-- Paso 3 — LED PWM
-- Paso 4 — WebSocket Client
-- Paso 5 — Light State Management
-- Paso 6 — Telemetria
-- Paso 7 — Time Sync (SNTP)
-- Paso 8 — Schedule & Auto Mode
-- Paso 9 — Concurrencia & Watchdog
+- [Paso 3 — LED PWM](https://github.com/FMFigueroa/paso-03-led-pwm)
+- [Paso 4 — WebSocket Client](https://github.com/FMFigueroa/paso-04-websocket)
+- [Paso 5 — Light State Management](https://github.com/FMFigueroa/paso-05-light-state)
+- [Paso 6 — Telemetria](https://github.com/FMFigueroa/paso-06-telemetry)
+- [Paso 7 — Time Sync (SNTP)](https://github.com/FMFigueroa/paso-07-time-sync)
+- [Paso 8 — Schedule & Auto Mode](https://github.com/FMFigueroa/paso-08-schedule)
+- [Paso 9 — Concurrencia & Watchdog](https://github.com/FMFigueroa/paso-09-watchdog)
 
 ## Licencia
 
